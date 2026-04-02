@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Katalog Laptop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./CSS/style.css">  
+
+</head>
+
+<body>
+
+<div class="container py-5">
+  
+  <div class="katalog-laptop text-center">
+        <h2 class="section-title">Pilihan Speaker Terbaik Untuk Anda</h2>
+        <p class="section-sub" >Speaker berkualitas dengan jaminan garansi 1 tahun</p>
+  </div>
+
+  <div id="loading" class="text-center">Loading produk...</div>
+
+  <div class="row" id="produk-list"></div>
+</div>
+
+<script>
+const url = "https://opensheet.elk.sh/1FD1M-DCFZL9aGs0g69buWYYdUEhfF9l2v5r1nvjfOOM/speaker"; // GANTI ID LU
+
+fetch(url)
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("produk-list");
+    document.getElementById("loading").style.display = "none";
+
+    data.forEach(item => {
+      container.innerHTML += `
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge">Sale</span>
+              <img src="${item.gambar}" alt="Headphone" />
+            </div>
+            <div class="product-body">
+              <p class="product-name" style="font-size: 1.1rem;">${item.nama}</p>
+              
+                 <p class="text-dark" style="font-size: .85rem; color: rgba(255,255,255,.75); margin: 14px 0 24px; max-width: 300px; line-height: 1.6;">${item.deskripsi}</p>
+                 
+                <div>
+                  <span class="product-price text-dark">${item.harga}</span>
+                  <span class="product-price-old">${item.hargaSebelum}</span>
+                </div>
+
+                <a href="#" class="btn-red mt-4">Tanya barang</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      `;
+    });
+  })
+  .catch(err => {
+    document.getElementById("loading").innerText = "Gagal load data 😢";
+    console.log(err);
+  });
+</script>
+
+<script src="./Js/script.js"></script>
+</body>
+</html>

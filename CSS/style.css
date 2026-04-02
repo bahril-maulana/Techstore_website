@@ -520,11 +520,11 @@
 
     /* HALAMAN KATALOG */
     .katalog-laptop{
-      margin-bottom: 50px;
+      margin-bottom: 78px;
       padding: 25px;
     }
     .katalog-laptop .section-title {
-      font-size: clamp(1.2rem, 5vw, 2.2rem);
+      font-size: clamp(1.5rem, 5vw, 2.5rem);
       font-weight: normal;
       font-family: var(--font-display);
       font-weight: 600;
@@ -946,6 +946,10 @@
         width: 40px;
         height: 40px;
       }
+
+      .katalog-laptop .section-title {
+      font-size: clamp(1.2rem, 5vw, 2.2rem);
+    }
     }
     @media (max-width: 575px) {
       .cat-card img { width: 40%; }
@@ -955,4 +959,8 @@
       .testimonial-subtitle { font-size: .84rem; }
       .testimonial-user { margin-bottom: 12px; }
       .testimonial-avatar { width: 42px; height: 42px; font-size: .75rem; }
+
+      .katalog-laptop .section-title {
+      font-size: clamp(1.5rem, 5vw, 2.5rem);
+    }
     }
