@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand Electronics Store</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+
+   <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="phlox-nav navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Logo -->
+      <a class="phlox-logo navbar-brand me-4" href="#">BR<span>A</span>ND</a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <i class="bi bi-list fs-4"></i>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto gap-1">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#category">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Location & contact</a></li>
+          
+        </ul>
+
+        <!-- Right icons -->
+        <div class="nav-icons d-flex align-items-center ms-lg-3 mt-3 mt-lg-0">
+          <a href="#" class="btn-login me-3">Chat</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero py-5" id="home" data-reveal>
+    <div class="container position-relative">
+      <div class="hero-ghost">Brand</div>
+      <div class="row align-items-center">
+        <!-- Left -->
+        <div class="col-lg-5 col-md-6">
+          <p class="hero-label">Brand</p>
+          <h1 class="hero-title">
+            <strong>Solusi Lengkap Kebutuhan Teknologi Anda</strong>
+          </h1>
+          <p class="text-muted mb-4 mt-3" style="font-size:.88rem;max-width:320px;line-height:1.7;">
+            Laptop, aksesoris, printer hingga CCTV berkualitas untuk bisnis dan kebutuhan harian Anda. Praktis, terpercaya, dan siap digunakan.
+          </p>
+          <a href="#" class="btn-red">lihat produk</a>
+        </div>
+        <!-- Right -->
+        <div class="col-lg-7 col-md-6 hero-img-wrap">
+          <img
+            src="./Assets/image/hero/hero.png"
+            alt="Beats Solo Wireless Headphone"
+          />
+        </div>
+      </div>
+      <!-- Description card -->
+      <div class="hero-desc d-none d-lg-block">
+        <p class="hero-desc-title">Description</p>
+        <p>Laptop, aksesoris, printer hingga CCTV berkualitas untuk bisnis dan kebutuhan harian Anda. Praktis, terpercaya, dan siap digunakan.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROMO BANNER
+  ============================================================ -->
+  <section class="py-5" id="about" data-reveal>
+    <div class="container">
+      <div class="promo-banner">
+        <div class="promo-off">Brand</div>
+        <div class="promo-content">
+          <p class="promo-tag">since &nbsp;·&nbsp; 2026</p>
+          <h2 class="promo-title">About us</h2>
+          <p class="promo-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam pariatur, itaque officiis ratione veritatis eligendi rem in, repellat quaerat ea expedita aspernatur quidem minus eius magnam fugiat sit, odit reprehenderit.</p>
+          <p class="promo-date"><i class="bi bi-calendar3 me-2"></i>15 Nov To 7 Dec</p>
+          
+        </div>
+        <img
+          class="promo-img d-none d-sm-block"
+          src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80"
+          alt="Promo Headphone"
+          style="filter: drop-shadow(-20px 20px 40px rgba(0,0,0,.35)) hue-rotate(0deg) saturate(1.3);"
+        />
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- ============================================================
+       CATEGORY SECTION
+  ============================================================ -->
+  <section class="py-5" id="category" data-reveal>
+    <div class="container">
+      <div class="category-heading text-center mx-auto mb-4 mb-md-5">
+        <h2 class="category-title">Category Produk</h2>
+        <p class="category-subtitle">
+          Temukan perangkat terbaik untuk kerja, hiburan, dan kebutuhan harian Anda
+          dalam pilihan kategori yang lebih rapi, modern, dan mudah dijelajahi.
+        </p>
+      </div>
+      <div class="row g-3">
+
+        <!-- Earphone – black -->
+        <div class="col-md-4 col-6">
+          <div class="cat-card bg-black">
+            <div>
+              <p class="cat-label">Enjoy With</p>
+              <p class="cat-name">Earphone</p>
+              <a href="earphone-katalog.html" class="btn-browse mt-2">Lihat katalog</a>
+            </div>
+            <div class="cat-ghost">EARPHONE</div>
+            <img src="./Assets/image/image category/earphome.webp" alt="Earphone" />
+          </div>
+        </div>
+
+        <!-- Wearables – yellow -->
+        <div class="col-md-4 col-6">
+          <div class="cat-card bg-yellow">
+            <div>
+              <p class="cat-label">New</p>
+              <p class="cat-name">SmartWatch</p>
+              <a href="#" class="btn-browse dark mt-2">Lihat katalog</a>
+            </div>
+            <div class="cat-ghost" style="color:rgba(0,0,0,.12);">SmartWatch</div>
+            <img src="./Assets/image/image category/smartwatch.webp" alt="Smartwatch" />
+          </div>
+        </div>
+
+        <!-- Laptop – red -->
+        <div class="col-md-4 col-12">
+          <div class="cat-card bg-red">
+            <div>
+              <p class="cat-label">Trend</p>
+              <p class="cat-name">Devices – Laptop</p>
+              <a href="laptop-katalog.html" class="btn-browse mt-2">Lihat katalog</a>
+            </div>
+            <div class="cat-ghost">Laptop</div>
+            <img src="./Assets/image/image category/laptop.webp" alt="Laptop" />
+          </div>
+        </div>
+
+        <!-- Gaming Console – light gray -->
+        <div class="col-md-6 col-12">
+          <div class="cat-card bg-lgray" style="min-height:220px;">
+            <div>
+              <p class="cat-label">Best</p>
+              <p class="cat-name">Gaming Console</p>
+              <a href="#" class="btn-browse dark mt-2">Lihat katalog</a>
+            </div>
+            <div class="cat-ghost" style="color:rgba(0,0,0,.07);font-size:4rem;">CON</div>
+            <img src="./Assets/image/image category/ps.webp" alt="Console" style="width:52%;" />
+          </div>
+        </div>
+
+        <!-- Oculus – green -->
+        <div class="col-md-3 col-6">
+          <div class="cat-card bg-green">
+            <div>
+              <p class="cat-label">Play</p>
+              <p class="cat-name">Game – Oculus</p>
+              <a href="#" class="btn-browse mt-2">Lihat katalog</a>
+            </div>
+            <div class="cat-ghost">VR</div>
+            <img src="./Assets/image/image category/game-oculus.webp" alt="VR" />
+          </div>
+        </div>
+
+        <!-- Speaker – blue -->
+        <div class="col-md-3 col-6">
+          <div class="cat-card bg-blue">
+            <div>
+              <p class="cat-label">Now</p>
+              <p class="cat-name">Amazon Speaker</p>
+              <a href="#" class="btn-browse mt-2">Lihat katalog</a>
+            </div>
+            <div class="cat-ghost">SPK</div>
+            <img src="./Assets/image/image category/speaker.webp" alt="Speaker" style="bottom:0px; width: 50%;"/>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ 
+  
+  <!-- ============================================================
+       BEST SELLER PRODUCTS
+  ============================================================ -->
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Best Seller Products</h2>
+        <p class="section-sub">There are many variations of passages of Lorem Ipsum available.</p>
+      </div>
+      <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge">Sale</span>
+              <img src="./Assets/image/section best sleer/headphone.webp" alt="Headphone" />
+            </div>
+            <div class="product-body">
+              <p class="product-name">Beats Headphone</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="product-price">Rp. 120.000</span>
+                  <span class="product-price-old">Rp. 150.000</span>
+                </div>
+                <button class="btn-cart"><i class="bi bi-bag-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img src="./Assets/image/section best sleer/Apple-watch.webp" alt="Smartwatch" />
+            </div>
+            <div class="product-body">
+              <p class="product-name">Apple Watch Series 9</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="product-price">Rp. 500.000</span>
+                </div>
+                <button class="btn-cart"><i class="bi bi-bag-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge">New</span>
+              <img src="./Assets/image/section best sleer/mackbook.webp" alt="Laptop" />
+            </div>
+            <div class="product-body">
+              <p class="product-name">MacBook Pro 14"</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="product-price">Rp. 10.000.000</span>
+                  <span class="product-price-old">Rp. 15.499.000</span>
+                </div>
+                <button class="btn-cart"><i class="bi bi-bag-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img src="./Assets/image/section best sleer/lenovo.webp" alt="Earbuds" />
+            </div>
+            <div class="product-body">
+              <p class="product-name">Lenovo ideapad</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="product-price">Rp. 13.000.000</span>
+                </div>
+                <button class="btn-cart"><i class="bi bi-bag-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge">Hot</span>
+              <img src="./Assets/image/section best sleer/rog.webp" alt="Console" />
+            </div>
+            <div class="product-body">
+              <p class="product-name">Asus ROG Gaming</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="product-price">Rp. 100.000.000</span>
+                </div>
+                <button class="btn-cart"><i class="bi bi-bag-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img src="./Assets/image/section best sleer/mouse.webp" alt="Speaker" />
+            </div>
+            <div class="product-body">
+              <p class="product-name">Logitech mouse</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="product-price">Rp. 500.000</span>
+                  <span class="product-price-old">Rp. 700.000</span>
+                </div>
+                <button class="btn-cart"><i class="bi bi-bag-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <span class="product-badge">Sale</span>
+              <img src="./Assets/image/section best sleer/ip.webp" alt="VR" />
+            </div>
+            <div class="product-body">
+              <p class="product-name">I phone 17 pro max</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="product-price">Rp. 23.000.000</span>
+                  <span class="product-price-old">Rp. 40.000.000</span>
+                </div>
+                <button class="btn-cart"><i class="bi bi-bag-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="product-card">
+            <div class="product-img-wrap">
+              <img src="./Assets/image/section best sleer/samsung.webp" alt="Camera" />
+            </div>
+            <div class="product-body">
+              <p class="product-name">Samsung s26 Ultra</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <span class="product-price">Rp. 20.000.000</span>
+                </div>
+                <button class="btn-cart"><i class="bi bi-bag-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Load more -->
+      <div class="text-center mt-5">
+        <a href="#category" class="btn-red px-5">View All Products</a>
+      </div>
+    </div>
+  </section>
+
+  
+
+  
+
+
+  <!-- ============================================================
+       TESTIMONIALS
+  ============================================================ -->
+  <section class="testimonials-section py-5" id="testimonials" data-reveal>
+    <div class="container">
+      <div class="testimonials-shell">
+        <div class="text-center testimonial-heading">
+          <p class="testimonial-kicker">Testimonial</p>
+          <h2 class="testimonial-title">Review's from our users</h2>
+          <p class="testimonial-subtitle">
+            Cerita nyata dari pelanggan yang sudah belanja perangkat teknologi
+            untuk kebutuhan kerja, usaha, dan penggunaan harian.
+          </p>
+          <div class="testimonial-controls d-lg-none">
+            <button class="testimonial-control-btn" type="button" data-testimonial-prev aria-label="Previous testimonial group">
+              <i class="bi bi-arrow-left"></i>
+            </button>
+            <button class="testimonial-control-btn" type="button" data-testimonial-next aria-label="Next testimonial group">
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="row g-3 align-items-start testimonial-grid">
+          <div class="col-lg-4 col-md-6 testimonial-slide is-active" data-testimonial-slide>
+            <div class="testimonial-stack testimonial-stack-left">
+              <article class="testimonial-card muted-card">
+                <div class="testimonial-time">3:00 AM <span>Sep 17, 2024</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-user">
+                  <div class="testimonial-avatar avatar-red">SJ</div>
+                  <div>
+                    <h3>Sarah Jonas</h3>
+                    <p>Product Designer</p>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  Pelayanannya cepat dan pilihan produknya jelas. Saya jadi lebih
+                  mudah menentukan laptop yang cocok untuk kerja harian.
+                </p>
+                <div class="testimonial-meta">3:00 AM <span>Sep 17, 2024</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-user">
+                  <div class="testimonial-avatar avatar-dark">AN</div>
+                  <div>
+                    <h3>Arga Nanda</h3>
+                    <p>Owner Studio</p>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  Timnya membantu banget saat pilih printer dan aksesoris kantor.
+                  Rekomendasinya tepat, tidak berlebihan, dan langsung bisa dipakai.
+                </p>
+                <div class="testimonial-meta">2:15 PM <span>Aug 22, 2024</span></div>
+              </article>
+              <article class="testimonial-card muted-card d-none d-md-block">
+                <div class="testimonial-user">
+                  <div class="testimonial-avatar avatar-soft">MI</div>
+                  <div>
+                    <h3>Mita Indah</h3>
+                    <p>Content Creator</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 testimonial-slide" data-testimonial-slide>
+            <div class="testimonial-stack testimonial-stack-center">
+              <article class="testimonial-card">
+                <div class="testimonial-user">
+                  <div class="testimonial-avatar avatar-soft">RF</div>
+                  <div>
+                    <h3>Rizky Fadli</h3>
+                    <p>Freelance Editor</p>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  Saya cari perangkat yang stabil untuk editing dan hasil konsultasinya
+                  pas. Pengirimannya juga rapi dan aman.
+                </p>
+                <div class="testimonial-meta">9:00 AM <span>Sep 17, 2024</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-user">
+                  <div class="testimonial-avatar avatar-red">SJ</div>
+                  <div>
+                    <h3>Sarah Jonas</h3>
+                    <p>Project Manager</p>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  Cocok untuk yang ingin belanja cepat tanpa bingung. Timnya responsif,
+                  produknya relevan, dan after sales-nya terasa membantu.
+                </p>
+                <div class="testimonial-meta">11:30 AM <span>Aug 17, 2024</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-user">
+                  <div class="testimonial-avatar avatar-dark">DP</div>
+                  <div>
+                    <h3>Dina Putri</h3>
+                    <p>Business Owner</p>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  Untuk kebutuhan toko dan administrasi, rekomendasi perangkatnya efisien.
+                  Saya suka karena fokus ke solusi, bukan sekadar jualan.
+                </p>
+                <div class="testimonial-meta">4:20 PM <span>Jul 29, 2024</span></div>
+              </article>
+            </div>
+          </div>
+
+          <div class="col-lg-4 testimonial-slide" data-testimonial-slide>
+            <div class="testimonial-stack testimonial-stack-right">
+              <article class="testimonial-card muted-card">
+                <p class="testimonial-text mb-0">
+                  "Desain modern, pelayanan ramah, dan kualitas produk konsisten."
+                </p>
+                <div class="testimonial-meta">10:45 AM <span>Sep 17, 2024</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-user">
+                  <div class="testimonial-avatar avatar-red">SJ</div>
+                  <div>
+                    <h3>Sarah Jonas</h3>
+                    <p>Digital Strategist</p>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  Experience belanjanya terasa premium walau prosesnya sederhana.
+                  Sangat membantu untuk kebutuhan kerja yang butuh keputusan cepat.
+                </p>
+                <div class="testimonial-meta">3:00 AM <span>Sep 17, 2024</span></div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-user">
+                  <div class="testimonial-avatar avatar-soft">LS</div>
+                  <div>
+                    <h3>Laras Sari</h3>
+                    <p>Marketing Lead</p>
+                  </div>
+                </div>
+                <p class="testimonial-text">
+                  Saya suka karena katalog dan sarannya tidak membingungkan. Semua terasa
+                  lebih terarah sejak awal konsultasi.
+                </p>
+                <div class="testimonial-meta">8:40 PM <span>Jul 12, 2024</span></div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-3 testimonial-stats">
+          <div class="col-md-4">
+            <div class="testimonial-stat-card">
+              <h3 class="counter-value" data-counter="10000" data-counter-suffix="k+">10k<span>+</span></h3>
+              <p>User around globe</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-stat-card">
+              <h3 class="counter-value" data-counter="97" data-counter-suffix="%">97<span>%</span></h3>
+              <p>User rating global</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-stat-card">
+              <h3 class="counter-value" data-counter="22000" data-counter-suffix="k+">22k<span>+</span></h3>
+              <p>User proud globe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- ============================================================
+       FEATURES STRIP
+  ============================================================ -->
+  <section class="features-strip" id="features" data-reveal>
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="text-center mb-5">
+        <h2 class="section-title">Contact and maps</h2>
+        <p class="section-sub">Ketuk menu di bawah untuk detail</p>
+      </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <a href="https://www.instagram.com/" class="feature-item feature-link" target="_blank" rel="noopener noreferrer">
+            <div class="feature-icon"><i class="bi bi-instagram"></i></div>
+            <div>
+              <p class="feature-title">Instagram</p>
+              <p class="feature-sub">Klik untuk melihat</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <a href="https://www.instagram.com/" class="feature-item feature-link" target="_blank" rel="noopener noreferrer">
+            <div class="feature-icon"><i class="bi bi-whatsapp"></i></div>
+            <div>
+              <p class="feature-title">WhatsApp</p>
+              <p class="feature-sub">Klik untuk menghubungi</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <a href="https://www.instagram.com/" class="feature-item feature-link" target="_blank" rel="noopener noreferrer">
+            <div class="feature-icon"><i class="bi bi-tiktok"></i></div>
+            <div>
+              <p class="feature-title">TikTok</p>
+              <p class="feature-sub">Klik untuk melihat</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <a href="https://www.instagram.com/" class="feature-item feature-link" target="_blank" rel="noopener noreferrer">
+            <div class="feature-icon"><i class="bi bi-geo-alt"></i></div>
+            <div>
+              <p class="feature-title">Location</p>
+              <p class="feature-sub">Klik untuk melihat lokasi</p>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="phlox-footer" id="contact" data-reveal>
+    <div class="container">
+      <div class="row g-4">
+        <!-- Brand -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-logo">BR<span>A</span>ND</div>
+          <p class="footer-desc">Your one-stop destination for premium electronics. Quality products, unbeatable prices, delivered to your door.</p>
+          <div class="mt-4">
+            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <p class="footer-title">Quick Links</p>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <p class="footer-title">Categories</p>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#category">Headphones</a></li>
+            <li><a href="#category">Laptops</a></li>
+            <li><a href="#category">Smartwatches</a></li>
+            <li><a href="#category">Gaming</a></li>
+            <li><a href="#category">Speakers</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-lg-4 col-md-6">
+          <p class="footer-title">Contact</p>
+          <p class="mt-4" style="font-size:.82rem;color:rgba(255,255,255,.45);">
+            <i class="bi bi-telephone me-2" style="color:var(--red);"></i>+62 812-3456-7890
+          </p>
+          <p style="font-size:.82rem;color:rgba(255,255,255,.45);">
+            <i class="bi bi-envelope me-2" style="color:var(--red);"></i>hello@brand.store
+          </p>
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+      <div class="d-flex flex-wrap justify-content-between align-items-center">
+        <p class="footer-copy">© 2025 BRAND Store. All rights reserved.</p>
+        <div class="d-flex gap-3">
+          <a href="#" style="font-size:.78rem;color:rgba(255,255,255,.35);">Privacy Policy</a>
+          <a href="#" style="font-size:.78rem;color:rgba(255,255,255,.35);">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./Js/script.js"></script>
+</body>
+</html>
