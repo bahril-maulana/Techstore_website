@@ -51,7 +51,14 @@ fetch(url)
                   <span class="product-price text-dark">${item.harga}</span>
                   <span class="product-price-old">${item.hargaSebelum}</span>
                 </div>
-                <a href="#" class="btn-red mt-4">Tanya barang</a>
+                <a href="https://wa.me/6285797252195?text=${encodeURIComponent(`
+*Halo!
+Saya ingin menanyakan tentang:*
+                
+Nama produk : ${item.nama}
+Deskripsi : ${item.deskripsi} 
+Harga : ${item.harga}`
+)}" class="btn-red mt-4">Tanya barang</a>
                 
               </div>
             </div>
